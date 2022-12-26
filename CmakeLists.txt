@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.20)
+
+project(6.5.1)
+
+add_executable(6.5.1 6.5.1.cpp)
+
+add_subdirectory("C:/Program Files/libpqxx/libpqxx-7.7.4" libpqxx-build)
+
+target_compile_features(6.5.1 PRIVATE cxx_std_17)
+
+target_link_libraries(6.5.1 pqxx)

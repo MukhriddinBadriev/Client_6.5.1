@@ -1,0 +1,42 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CPack.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CPackComponent.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CheckFunctionExists.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CheckSymbolExists.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/FindPostgreSQL.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/GNUInstallDirs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Templates/CPackConfig.cmake.in
+C:/Program Files/libpqxx/libpqxx-7.7.4/CMakeLists.txt
+C:/Program Files/libpqxx/libpqxx-7.7.4/cmake/config.cmake
+C:/Program Files/libpqxx/libpqxx-7.7.4/cmake/libpqxx-config.cmake
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/charconv_float.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/charconv_int.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/cmp.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/concepts.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/cxa_demangle.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/fs.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/gcc_pure.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/gcc_visibility.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/likely.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/multidim-subscript.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/need_fslib.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/sleep_for.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/span.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/strerror_r.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/strerror_s.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/thread_local.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/unreachable.cxx
+C:/Program Files/libpqxx/libpqxx-7.7.4/config-tests/year_month_day.cxx
+D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/include/pqxx/config_cmake.h.in
