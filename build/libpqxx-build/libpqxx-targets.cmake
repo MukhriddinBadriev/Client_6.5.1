@@ -50,7 +50,7 @@ unset(_cmake_expected_targets)
 add_library(libpqxx::pqxx STATIC IMPORTED)
 
 set_target_properties(libpqxx::pqxx PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/include;C:/Program Files/libpqxx/libpqxx-7.7.4/include"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/include;C:/Program Files/libpqxx/libpqxx-7.7.4/include"
   INTERFACE_LINK_LIBRARIES "C:/Program Files/PostgreSQL/15/lib/libpq.lib;wsock32;ws2_32"
 )
 
@@ -58,28 +58,28 @@ set_target_properties(libpqxx::pqxx PROPERTIES
 set_property(TARGET libpqxx::pqxx APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(libpqxx::pqxx PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/src/Debug/pqxx.lib"
+  IMPORTED_LOCATION_DEBUG "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/src/Debug/pqxx.lib"
   )
 
 # Import target "libpqxx::pqxx" for configuration "Release"
 set_property(TARGET libpqxx::pqxx APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(libpqxx::pqxx PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/src/Release/pqxx.lib"
+  IMPORTED_LOCATION_RELEASE "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/src/Release/pqxx.lib"
   )
 
 # Import target "libpqxx::pqxx" for configuration "MinSizeRel"
 set_property(TARGET libpqxx::pqxx APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(libpqxx::pqxx PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/src/MinSizeRel/pqxx.lib"
+  IMPORTED_LOCATION_MINSIZEREL "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/src/MinSizeRel/pqxx.lib"
   )
 
 # Import target "libpqxx::pqxx" for configuration "RelWithDebInfo"
 set_property(TARGET libpqxx::pqxx APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(libpqxx::pqxx PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/src/RelWithDebInfo/pqxx.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/src/RelWithDebInfo/pqxx.lib"
   )
 
 # This file does not depend on other imported targets which have

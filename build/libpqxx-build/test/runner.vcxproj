@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9BFE8A74-193D-3534-9A35-708402C0F358}</ProjectGuid>
+    <ProjectGuid>{7E6E8018-6FD7-332E-BD98-BC0949703600}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\test\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\test\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">runner.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">runner</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\test\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\test\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">runner.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">runner</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\test\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\test\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">runner.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">runner</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\test\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\test\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">runner.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">runner</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -102,10 +102,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -118,8 +118,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/test/Debug/runner.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/test/Debug/runner.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/test/Debug/runner.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/test/Debug/runner.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -144,10 +144,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -160,8 +160,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/test/Release/runner.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/test/Release/runner.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/test/Release/runner.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/test/Release/runner.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -170,7 +170,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -186,10 +186,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -202,8 +202,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/test/MinSizeRel/runner.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/test/MinSizeRel/runner.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/test/MinSizeRel/runner.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/test/MinSizeRel/runner.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -212,7 +212,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -227,10 +227,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\PostgreSQL\15\include;C:\Program Files\PostgreSQL\15\include\server;D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\include;C:\Program Files\libpqxx\libpqxx-7.7.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -243,8 +243,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/test/RelWithDebInfo/runner.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/test/RelWithDebInfo/runner.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/test/RelWithDebInfo/runner.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/test/RelWithDebInfo/runner.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -256,7 +256,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Program Files/libpqxx/libpqxx-7.7.4/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1" "-BD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build" --check-stamp-file "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/test/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5" "-BD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build" --check-stamp-file "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/test/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -265,11 +265,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Program Files/libpqxx/libpqxx-7.7.4/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1" "-BD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build" --check-stamp-file "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/test/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5" "-BD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build" --check-stamp-file "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/test/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -278,11 +278,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Program Files/libpqxx/libpqxx-7.7.4/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1" "-BD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build" --check-stamp-file "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/test/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5" "-BD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build" --check-stamp-file "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/test/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -291,11 +291,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Program Files/libpqxx/libpqxx-7.7.4/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1" "-BD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build" --check-stamp-file "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/test/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5" "-BD:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build" --check-stamp-file "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/test/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -304,7 +304,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -396,14 +396,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Program Files\libpqxx\libpqxx-7.7.4\test\unit\test_zview.cxx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\ZERO_CHECK.vcxproj">
-      <Project>{2C88D73E-BA45-3717-9D48-D149C2CDE276}</Project>
+    <ProjectReference Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\ZERO_CHECK.vcxproj">
+      <Project>{B9C8A844-14C5-351F-8130-4CC18E907628}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\libpqxx-build\src\pqxx.vcxproj">
-      <Project>{775CC1AE-D1BF-3A3D-9E56-EDB9E24FC77F}</Project>
+    <ProjectReference Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\libpqxx-build\src\pqxx.vcxproj">
+      <Project>{AA2AC4FD-2917-3BDF-B4E4-5405D4BC4E55}</Project>
       <Name>pqxx</Name>
     </ProjectReference>
   </ItemGroup>

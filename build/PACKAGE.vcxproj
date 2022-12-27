@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{458CADFB-FE16-33BB-99CC-15190FB1A055}</ProjectGuid>
+    <ProjectGuid>{A277F386-0651-3F70-8A02-937B039BF6B8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -68,7 +68,7 @@
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd "D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build"
+cd "D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build"
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
@@ -86,7 +86,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd "D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build"
+cd "D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build"
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
@@ -104,7 +104,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd "D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build"
+cd "D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build"
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
@@ -122,7 +122,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd "D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build"
+cd "D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build"
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
@@ -137,7 +137,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\CMakeFiles\82aba23c6112252ca350321854a3d3a9\PACKAGE_force.rule">
+    <CustomBuild Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\CMakeFiles\0cb58e6edd301f17765643bc5f7d00ac\PACKAGE_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd .
@@ -149,7 +149,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\CMakeFiles\PACKAGE_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\CMakeFiles\PACKAGE_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
@@ -163,7 +163,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\CMakeFiles\PACKAGE_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\CMakeFiles\PACKAGE_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"> </Message>
@@ -177,7 +177,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\CMakeFiles\PACKAGE_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\CMakeFiles\PACKAGE_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"> </Message>
@@ -191,20 +191,20 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\CMakeFiles\PACKAGE_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\CMakeFiles\PACKAGE_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\ZERO_CHECK.vcxproj">
-      <Project>{2C88D73E-BA45-3717-9D48-D149C2CDE276}</Project>
+    <ProjectReference Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\ZERO_CHECK.vcxproj">
+      <Project>{B9C8A844-14C5-351F-8130-4CC18E907628}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\ALL_BUILD.vcxproj">
-      <Project>{6206D5B8-D1E9-3559-AEB6-DE1219CD7842}</Project>
+    <ProjectReference Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\ALL_BUILD.vcxproj">
+      <Project>{9EE24DB8-A315-36D4-9511-64CB2ACE97F6}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

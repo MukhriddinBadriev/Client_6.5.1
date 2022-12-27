@@ -46,26 +46,26 @@ int main()
 
 		/*std::cout << "Enter client name: ";
 		std::cin >> FindViaName;*/
-		c.prepare("FindClients", "SELECT * FROM Clients WHERE name_client LIKE '%" + FindViaName + "%'");
-		//C.FindClients(tx);
+		c.prepare("FindClientsByName", "SELECT * FROM Clients WHERE name_client LIKE '%" + FindViaName + "%'");
+		//C.FindClientsByName(tx);
 
 		/*std::cout << "Enter client last name: ";
-		std::cin >> FindViaLName;
-		c.prepare("FindClients", "SELECT * FROM Clients WHERE name_client LIKE '%" + FindViaLName + "%'");
-		C.FindClients(tx);*/
+		std::cin >> FindViaLName;*/
+		c.prepare("FindClientsByLastName", "SELECT * FROM Clients WHERE last_name LIKE '%" + FindViaLName + "%'");
+		//C.FindClientsByLastName(tx);
 
 		/*std::cout << "Enter client email: ";
-		std::cin >> FindViaEmail;
-		c.prepare("FindClients", "SELECT * FROM Clients WHERE name_client LIKE '%" + FindViaEmail + "%'");
-		C.FindClients(tx);*/
+		std::cin >> FindViaEmail;*/
+		c.prepare("FindClientsByEmail", "SELECT * FROM Clients WHERE email LIKE '%" + FindViaEmail + "%'");
+		//C.FindClientsByEmail(tx);
 
 		/*std::cout << "Enter client phone: ";
-		std::cin >> FindViaPhone;
-		c.prepare("FindClients", "SELECT * FROM Clients c "
+		std::cin >> FindViaPhone;*/
+		c.prepare("FindClientsByPhone", "SELECT * FROM Clients c "
 					"INNER JOIN Phones p ON c.id_client = p.id_client "
-					"WHERE name_client LIKE '%" + FindViaPhone + "%'");
+					"WHERE phone LIKE '%" + FindViaPhone + "%'");
 
-		C.FindClients(tx);*/
+		//C.FindClientsByPhone(tx);
 
 		tx.commit();
 

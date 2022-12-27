@@ -35,7 +35,7 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES
     "C:/Program Files/libpqxx/libpqxx-7.7.4/include/pqxx"
-    "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/include/pqxx"
+    "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/include/pqxx"
     FILES_MATCHING REGEX "/[^/]*\\.hxx$" REGEX "/array$" REGEX "/binarystring$" REGEX "/blob$" REGEX "/composite$" REGEX "/connection$" REGEX "/cursor$" REGEX "/dbtransaction$" REGEX "/errorhandler$" REGEX "/except$" REGEX "/field$" REGEX "/isolation$" REGEX "/largeobject$" REGEX "/nontransaction$" REGEX "/notification$" REGEX "/params$" REGEX "/pipeline$" REGEX "/prepared\\_statement$" REGEX "/range$" REGEX "/result$" REGEX "/robusttransaction$" REGEX "/row$" REGEX "/separated\\_list$" REGEX "/strconv$" REGEX "/stream\\_from$" REGEX "/stream\\_to$" REGEX "/subtransaction$" REGEX "/time$" REGEX "/transaction$" REGEX "/transaction\\_base$" REGEX "/transaction\\_focus$" REGEX "/transactor$" REGEX "/types$" REGEX "/util$" REGEX "/version$" REGEX "/zview$" REGEX "/internal\\/[^/]*\\.hxx$" REGEX "/internal\\/gates\\/[^/]*\\.hxx$" REGEX "/config\\-public\\-compiler\\.h$" REGEX "/pqxx$" REGEX "/doc$" EXCLUDE)
 endif()
 

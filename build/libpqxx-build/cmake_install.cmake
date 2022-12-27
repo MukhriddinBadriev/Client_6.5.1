@@ -35,7 +35,7 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libpqxx" TYPE FILE FILES
     "C:/Program Files/libpqxx/libpqxx-7.7.4/cmake/libpqxx-config.cmake"
-    "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/libpqxx-config-version.cmake"
+    "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/libpqxx-config-version.cmake"
     )
 endif()
 
@@ -43,7 +43,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/libpqxx/libpqxx-targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/libpqxx/libpqxx-targets.cmake"
-         "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/CMakeFiles/Export/d6b66e93f8212dd1f00debf9f6654819/libpqxx-targets.cmake")
+         "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/CMakeFiles/Export/d6b66e93f8212dd1f00debf9f6654819/libpqxx-targets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/libpqxx/libpqxx-targets-*.cmake")
       if(_cmake_old_config_files)
@@ -56,26 +56,26 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libpqxx" TYPE FILE FILES "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/CMakeFiles/Export/d6b66e93f8212dd1f00debf9f6654819/libpqxx-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libpqxx" TYPE FILE FILES "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/CMakeFiles/Export/d6b66e93f8212dd1f00debf9f6654819/libpqxx-targets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libpqxx" TYPE FILE FILES "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/CMakeFiles/Export/d6b66e93f8212dd1f00debf9f6654819/libpqxx-targets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libpqxx" TYPE FILE FILES "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/CMakeFiles/Export/d6b66e93f8212dd1f00debf9f6654819/libpqxx-targets-debug.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libpqxx" TYPE FILE FILES "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/CMakeFiles/Export/d6b66e93f8212dd1f00debf9f6654819/libpqxx-targets-minsizerel.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libpqxx" TYPE FILE FILES "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/CMakeFiles/Export/d6b66e93f8212dd1f00debf9f6654819/libpqxx-targets-minsizerel.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libpqxx" TYPE FILE FILES "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/CMakeFiles/Export/d6b66e93f8212dd1f00debf9f6654819/libpqxx-targets-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libpqxx" TYPE FILE FILES "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/CMakeFiles/Export/d6b66e93f8212dd1f00debf9f6654819/libpqxx-targets-relwithdebinfo.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libpqxx" TYPE FILE FILES "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/CMakeFiles/Export/d6b66e93f8212dd1f00debf9f6654819/libpqxx-targets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libpqxx" TYPE FILE FILES "D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/CMakeFiles/Export/d6b66e93f8212dd1f00debf9f6654819/libpqxx-targets-release.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/src/cmake_install.cmake")
-  include("D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/include/cmake_install.cmake")
-  include("D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/6.5.1/build/libpqxx-build/test/cmake_install.cmake")
+  include("D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/src/cmake_install.cmake")
+  include("D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/include/cmake_install.cmake")
+  include("D:/DesktopD/C++/Netology/Homework Netology/Blok_6/Lesson 5/build/libpqxx-build/test/cmake_install.cmake")
 
 endif()
 

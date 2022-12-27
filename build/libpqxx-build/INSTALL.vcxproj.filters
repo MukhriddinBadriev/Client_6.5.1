@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\build\CMakeFiles\c2788fd3b690211cd22e57bfddb0254e\INSTALL_force.rule">
+    <CustomBuild Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\build\CMakeFiles\e35c8e2f0020c7bfddd33e03cb12e409\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{8C8B7412-0216-36F5-ACA8-7D457B4D59B4}</UniqueIdentifier>
+      <UniqueIdentifier>{6EF66D95-1947-39AA-8312-FDE8CE84CEF6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

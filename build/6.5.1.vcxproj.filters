@@ -1,16 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\6.5.1.cpp">
+    <ClCompile Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\6.5.1\CmakeLists.txt" />
+    <ClInclude Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\Client.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="D:\DesktopD\C++\Netology\Homework Netology\Blok_6\Lesson 5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0E991353-FC89-3A53-B455-DACE087B3F96}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{198861A7-33AB-326F-A08C-36159A3C1E43}</UniqueIdentifier>
+      <UniqueIdentifier>{45DF7876-6B07-38C2-853F-FE45A9C294E9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
