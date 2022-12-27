@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.20)
 
 project(6.5.1)
 
-add_executable(6.5.1 6.5.1.cpp)
+add_executable(6.5.1 6.5.1.cpp Client.hpp)
 
 add_subdirectory("C:/Program Files/libpqxx/libpqxx-7.7.4" libpqxx-build)
 
